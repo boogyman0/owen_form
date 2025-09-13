@@ -9,10 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
-        /* --- General Styles --- */
+        
         body {
             font-family: 'Sarabun', sans-serif;
-            /* --- NEW: พื้นหลังแบบไล่ระดับสี --- */
             background: linear-gradient(135deg, #1f4068, #1687a7);
             background-size: cover;
             margin: 0;
@@ -22,13 +21,12 @@
             min-height: 100vh;
         }
 
-        /* --- Form Container --- */
+        
         .form-container {
-            /* --- NEW: ทำให้พื้นหลังโปร่งแสงเล็กน้อย --- */
             background-color: rgba(255, 255, 255, 0.95);
             padding: 30px 40px;
             border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้เข้มขึ้น */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
             max-width: 450px;
             width: 100%;
             box-sizing: border-box;
@@ -36,12 +34,12 @@
         }
 
         h2 {
-            color: #1f4068; /* เปลี่ยนสีหัวข้อให้เข้ากับธีม */
+            color: #1f4068;
             text-align: center;
             margin-bottom: 25px;
         }
 
-        /* --- Form Groups & Labels --- */
+       
         .form-group {
             margin-bottom: 20px;
         }
@@ -53,7 +51,7 @@
             font-weight: bold;
         }
 
-        /* --- Input Fields --- */
+       
         input[type="text"],
         input[type="email"] {
             width: 100%;
@@ -64,18 +62,16 @@
             transition: border-color 0.3s, box-shadow 0.3s;
         }
 
-        /* Style ตอนที่ผู้ใช้กำลังกรอกข้อมูล */
+        
         input[type="text"]:focus,
         input[type="email"]:focus {
-            /* --- NEW: เปลี่ยนสีตอนคลิกให้เข้ากับปุ่ม --- */
             border-color: #28a745; 
             box-shadow: 0 0 8px rgba(40, 167, 69, 0.25);
             outline: none;
         }
 
-        /* --- Submit Button --- */
+        
         .submit-btn {
-            /* --- NEW: เปลี่ยนสีปุ่มเป็นสีเขียว --- */
             background-color: #28a745;
             color: white;
             padding: 14px 20px;
@@ -89,7 +85,6 @@
         }
 
         .submit-btn:hover {
-            /* --- NEW: สีเข้มขึ้นเมื่อเอาเมาส์ไปชี้ --- */
             background-color: #218838;
         }
     </style>
@@ -120,4 +115,5 @@
     </div>
 
 </body>
+
 </html>
